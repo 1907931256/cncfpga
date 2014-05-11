@@ -1,15 +1,3 @@
-/***********************************************************************
-
-  File:   cfg_ping.v
-  Rev:    3.1.166
-
-  This is the user configurable options file for Xilinx's PCI Logicore.
-  This file is specific to the Ping example design.
-
-  Copyright (c) 2005-2008 Xilinx, Inc.  All rights reserved.
-
-***********************************************************************/
-
 `define MEMORY 1'b0
 `define IO     1'b1
 

@@ -1,16 +1,4 @@
-/***********************************************************************
-
-  File:   pcim_top.v
-  Rev:    3.1.166
-
-  This is the top-level template file for Verilog designs.
-
-  Copyright (c) 2005-2008 Xilinx, Inc.  All rights reserved.
-
-***********************************************************************/
-
-
-module pcim_top (
+module cnc_top (
                 AD,             // PCI ports -- do not modify names!
                 CBE,
                 PAR,
@@ -148,7 +136,7 @@ module pcim_top (
 
   // Instantiation of userapp back-end application template
 
-  ping32 PING32_INST (
+  cnc CNC_INST (
                 .FRAMEQ_N ( FRAMEQ_N ),
                 .TRDYQ_N ( TRDYQ_N ),
                 .IRDYQ_N ( IRDYQ_N ),

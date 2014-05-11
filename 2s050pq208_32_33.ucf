@@ -689,7 +689,7 @@ NET "PCLK" PERIOD = 30.000;
 # user application is partially asynchronous to the PCI Bus clock, this
 # timegroup must minimally contain the flip flops which are synchronous.
 #
-INST "PING32_INST" TNM = FFS:USER_FFS ;
+INST "CNC_INST" TNM = FFS:USER_FFS ;
 #
 # You may add further time names and time groups specific to your custom
 # design as long as the do not interfere with the timegroups and time

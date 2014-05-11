@@ -79,7 +79,7 @@ module cnc_tb;
 
   // Instantiate FPGA PCI design
 
-  pcim_top UUT (
+  cnc_top UUT (
                 .AD( AD ),
                 .CBE( CBE ),
                 .PAR( PAR ),
