@@ -1,0 +1,6 @@
+`include "unisim_comp.v"
+`include "./pci_lc_i.v"
+`include "./pcim_lc_33_5_s.v"
+`include "./cfg_ping.v"
+`include "./ping.v"
+`include "./pcim_top.v"
