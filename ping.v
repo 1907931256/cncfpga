@@ -355,7 +355,7 @@ module ping32 (
     end
   end
 
-  IBUF_PCI33_3 XPCI_PING_REQ32 (.O(ping_req32_i),.I(PING_REQUEST32));
+  IBUF_PCI33_5 XPCI_PING_REQ32 (.O(ping_req32_i),.I(PING_REQUEST32));
 
   // This is the "set/reset" implementation for
   // the COMPLETE logic.  
@@ -407,7 +407,7 @@ module ping32 (
   assign #TDLY M_CBE = M_ADDR_N ? 4'h0 : {my_io_reg[7:5], dir};
   assign #TDLY ping_done_o = pre_done;
 
-  OBUF_PCI33_3 XPCI_PING_DONE (.O(PING_DONE),.I(ping_done_o));
+  OBUF_PCI33_5 XPCI_PING_DONE (.O(PING_DONE),.I(ping_done_o));
 
   // A simple 32-bit register for data transfer.
 
