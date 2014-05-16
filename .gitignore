@@ -263,3 +263,7 @@ cncfpga_xdb
 transcript
 *.tbl
 wlf*
+*.rbt
+*.bin
+_ngo
+*_routed.v
